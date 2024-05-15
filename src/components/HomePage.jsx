@@ -6,8 +6,8 @@ function HomePage() {
   return (
     <div className="hero-container">
       <video src="/videos/video-2.mp4" autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <h1>Wellcome to Our Tech Studio</h1>
+      <p>IT'S NICE TO SEE YOU HERE</p>
       <div className="hero-btns">
         <Button
           className="btns"
@@ -21,7 +21,7 @@ function HomePage() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          Watch Demo <i className="far fa-play-circle" />
+          EXPLORE <i className="far fa-play-circle" />
         </Button>
       </div>
     </div>
